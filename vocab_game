@@ -77,8 +77,7 @@ ans1 = st.text_input(
 )
 ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
-    value=st.session_state.ans2_val,
-)
+    value=st.session_state.ans2_val,)
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
@@ -101,4 +100,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-  st.write("นางสาวชนากานต์ กันธะมาโนช เลขที่ 25 ม.4/14")
+st.write("นางสาวชนากานต์ กันธะมาโนช เลขที่ 25 ม.4/14")
