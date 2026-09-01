@@ -101,4 +101,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางสาวชนากานต์ กันธะมาโนช เลขที่ 25 ม.4/14")
+st.write("นางสาวณัฐชารี คงสุนทร เลขที่ 22 ม.4/12")
